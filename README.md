@@ -1,11 +1,11 @@
-[![Tsoding](https://img.shields.io/badge/twitch.tv-tsoding-purple?logo=twitch&style=for-the-badge)](https://www.twitch.tv/tsoding)
-[![Build Status](https://travis-ci.org/tsoding/schedule.svg?branch=master)](https://travis-ci.org/tsoding/schedule)
+[![Tsoding](https://img.shields.io/badge/twitch.tv-hackbacc-purple?logo=twitch&style=for-the-badge)](https://www.twitch.tv/hackbacc)
+[![Build Status](https://travis-ci.org/hackbacc/schedule.svg?branch=master)](https://travis-ci.org/hackbacc/schedule)
 
 # Schedule for Tsoding Streams
 
 Schedule for Tsoding Streams. Front-End only Single Page Application without any Back-End. Makes all of the schedule building work yours computer problem. Saves me money on hosting.
 
-Deployed in https://tsoding.github.io/schedule/
+Deployed in https://hackbacc.github.io/schedule/
 
 ## Prerequisites
 
