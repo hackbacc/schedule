@@ -10,27 +10,27 @@ STATIC=html/index.html css/reset.css json/schedule.json
 # PRODUCTION ##############################
 
 .PHONY: all
-all: dist/app.js dist/index.html dist/reset.css dist/main.css dist/schedule.json
+all: docs/app.js docs/index.html docs/reset.css docs/main.css docs/schedule.json
 
-dist/app.js: dist $(TSS)
-	$(BROWSERIFY) ./ts/app.ts -p tsify -g uglifyify --outfile dist/app.js
+docs/app.js: docs $(TSS)
+	$(BROWSERIFY) ./ts/app.ts -p tsify -g uglifyify --outfile docs/app.js
 
-dist/index.html: dist html/index.html
-	cp html/index.html dist/
+docs/index.html: docs html/index.html
+	cp html/index.html docs/
 
-dist/reset.css: dist css/reset.css
-	cp css/reset.css dist/
+docs/reset.css: docs css/reset.css
+	cp css/reset.css docs/
 
-dist/main.css: dist scss/main.scss
-	mkdir -p dist/webfonts
-	cp node_modules/@fortawesome/fontawesome-free/webfonts/* dist/webfonts/
-	$(SASS) $(SASS_BUILD_FLAGS) scss/main.scss dist/main.css
+docs/main.css: docs scss/main.scss
+	mkdir -p docs/webfonts
+	cp node_modules/@fortawesome/fontawesome-free/webfonts/* docs/webfonts/
+	$(SASS) $(SASS_BUILD_FLAGS) scss/main.scss docs/main.css
 
-dist/schedule.json: dist json/schedule.json
-	jq -c . json/schedule.json > dist/schedule.json
+docs/schedule.json: docs json/schedule.json
+	jq -c . json/schedule.json > docs/schedule.json
 
-dist:
-	mkdir -p dist
+docs:
+	mkdir -p docs
 
 # DEVELOPMENT ##############################
 
@@ -38,26 +38,26 @@ dist:
 watch: watch-ts watch-scss watch-static http-server
 
 .PHONY: watch-ts
-watch-ts: dist $(TSS)
-	$(WATCHIFY) ./ts/app.ts -v -p tsify --outfile dist/app.js --debug
+watch-ts: docs $(TSS)
+	$(WATCHIFY) ./ts/app.ts -v -p tsify --outfile docs/app.js --debug
 
 .PHONY: watch-scss
-watch-scss: dist scss/main.scss
-	mkdir -p dist/webfonts
-	cp node_modules/@fortawesome/fontawesome-free/webfonts/* dist/webfonts/
-	$(SASS) $(SASS_WATCH_FLAGS) scss/main.scss dist/main.css
+watch-scss: docs scss/main.scss
+	mkdir -p docs/webfonts
+	cp node_modules/@fortawesome/fontawesome-free/webfonts/* docs/webfonts/
+	$(SASS) $(SASS_WATCH_FLAGS) scss/main.scss docs/main.css
 
 .PHONY: watch-static
-watch-static: dist $(STATIC)
-	cp $(STATIC) dist/
+watch-static: docs $(STATIC)
+	cp $(STATIC) docs/
 	while inotifywait -q -e modify,move_self $(STATIC); do \
-		cp $(STATIC) dist/;                                \
+		cp $(STATIC) docs/;                                \
 	done
 
 .PHONY: http-server
-http-server: dist
+http-server: docs
 	python -m SimpleHTTPServer 8080
 
 .PHONY: clean
 clean:
-	rm -rfv dist/
+	rm -rfv docs/
