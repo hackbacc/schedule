@@ -1,12 +1,13 @@
 {
     "projects": [
         {
-            "name": "cm (TUI App in Rust)",
-            "url": "https://github.com/hackbacc/cm",
-            "description": "The goal of this application is to recreate the [compilation-mode](https://www.gnu.org/software/emacs/manual/html_node/emacs/Compilation-Mode.html) of Emacs as a standalone TUI application.",
-            "days": [2],
+            "name": "The Cuckoos egg",
+            "url": "#",
+            "description": "Speed running the cuckoos egg",
+            "days": [6,7],
             "time": "23:00",
-            "starts": "2020-04-28",
+            "starts": "2020-08-08",
+            "ends": "2020-08-09",
             "channel": "https://twitch.tv/hackbacc"
         }
     ],
