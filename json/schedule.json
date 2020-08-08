@@ -9,16 +9,6 @@
             "starts": "2020-08-08",
             "ends": "2020-08-09",
             "channel": "https://twitch.tv/hackbacc"
-        },
-        {
-            "name": "The Cuckoos egg1",
-            "url": "#",
-            "description": "Speed running the cuckoos egg1",
-            "days": [6,7],
-            "time": "23:00",
-            "starts": "2020-08-08",
-            "ends": "2020-08-09",
-            "channel": "https://twitch.tv/hackbacc"
         }
     ],
     "extraEvents": [
