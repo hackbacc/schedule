@@ -19,6 +19,16 @@
             "starts": "2020-08-13",
             "ends": "2020-08-15",
             "channel": "https://twitch.tv/hackbacc"
+        },
+        {
+            "name": "Learning Haskell",
+            "url": "#",
+            "description": "Learn Haskell from http://learnyouahaskell.com/learnyouahaskell.pdf",
+            "days": [1,2,3,4,5,6,7],
+            "time": "23:00",
+            "starts": "2020-08-16",
+            "ends": "2020-08-16",
+            "channel": "https://twitch.tv/hackbacc"
         }
     ],
     "extraEvents": [
