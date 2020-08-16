@@ -15,7 +15,7 @@
             "url": "#",
             "description": "Build code editor in python using ncurses. Something like vim. Link - https://github.com/hackbacc/kim ",
             "days": [1,2,3,4,5,6,7],
-            "time": "23:00",
+            "time": "11:00",
             "starts": "2020-08-13",
             "ends": "2020-08-15",
             "channel": "https://twitch.tv/hackbacc"
@@ -25,7 +25,7 @@
             "url": "#",
             "description": "Learn Haskell from http://learnyouahaskell.com/learnyouahaskell.pdf",
             "days": [1,2,3,4,5,6,7],
-            "time": "23:00",
+            "time": "11:00",
             "starts": "2020-08-16",
             "ends": "2020-08-16",
             "channel": "https://twitch.tv/hackbacc"
