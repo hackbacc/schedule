@@ -1,9 +1,9 @@
-[![Tsoding](https://img.shields.io/badge/twitch.tv-hackbacc-purple?logo=twitch&style=for-the-badge)](https://www.twitch.tv/hackbacc)
+[![hackbacc](https://img.shields.io/badge/twitch.tv-hackbacc-purple?logo=twitch&style=for-the-badge)](https://www.twitch.tv/hackbacc)
 [![Build Status](https://travis-ci.org/hackbacc/schedule.svg?branch=master)](https://travis-ci.org/hackbacc/schedule)
 
-# Schedule for Tsoding Streams
+# Schedule for hackbacc Streams
 
-Schedule for Tsoding Streams. Front-End only Single Page Application without any Back-End. Makes all of the schedule building work yours computer problem. Saves me money on hosting.
+Schedule for hackbacc Streams. Front-End only Single Page Application without any Back-End. Makes all of the schedule building work yours computer problem. Saves me money on hosting.
 
 Deployed in https://hackbacc.github.io/schedule/
 
