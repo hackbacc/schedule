@@ -27,57 +27,17 @@
             "days": [1,2,3,4,5,6,7],
             "time": "11:00",
             "starts": "2020-08-16",
-            "ends": "2020-08-16",
-            "channel": "https://twitch.tv/hackbacc"
-        },
-        {
-            "name": "Learning Haskell",
-            "url": "#",
-            "description": "Learn Haskell from http://learnyouahaskell.com/learnyouahaskell.pdf",
-            "days": [1,2,3,4,5,6,7],
-            "time": "21:00",
-            "starts": "2020-08-17",
-            "ends": "2020-08-17",
-            "channel": "https://twitch.tv/hackbacc"
-        },
-        {
-            "name": "Learning Haskell",
-            "url": "#",
-            "description": "Learn Haskell from http://learnyouahaskell.com/learnyouahaskell.pdf",
-            "days": [1,2,3,4,5,6,7],
-            "time": "20:00",
-            "starts": "2020-08-18",
-            "ends": "2020-08-18",
-            "channel": "https://twitch.tv/hackbacc"
-        },
-        {
-            "name": "Learning Haskell",
-            "url": "#",
-            "description": "#6 Learn Haskell from http://learnyouahaskell.com/learnyouahaskell.pdf",
-            "days": [1,2,3,4,5,6,7],
-            "time": "20:00",
-            "starts": "2020-08-19",
             "ends": "2020-08-19",
             "channel": "https://twitch.tv/hackbacc"
         },
         {
             "name": "Learning Haskell",
             "url": "#",
-            "description": "#7 Learn Haskell from http://learnyouahaskell.com/learnyouahaskell.pdf",
+            "description": "Learn Haskell from http://learnyouahaskell.com/learnyouahaskell.pdf",
             "days": [1,2,3,4,5,6,7],
             "time": "20:00",
-            "starts": "2020-08-21",
-            "ends": "2020-08-21",
-            "channel": "https://twitch.tv/hackbacc"
-        },
-        {
-            "name": "Learning Haskell #8",
-            "url": "#",
-            "description": "#8 Learn Haskell from http://learnyouahaskell.com/learnyouahaskell.pdf",
-            "days": [1,2,3,4,5,6,7],
-            "time": "20:00",
-            "starts": "2020-08-22",
-            "ends": "2020-08-22",
+            "starts": "2020-08-20",
+            "ends": "2020-08-23",
             "channel": "https://twitch.tv/hackbacc"
         }
     ],
