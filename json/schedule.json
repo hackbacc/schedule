@@ -43,11 +43,21 @@
         {
             "name": "Lambda calculus in Haskell",
             "url": "#",
-            "description": "Learn Haskell from http://learnyouahaskell.com/learnyouahaskell.pdf",
+            "description": "https://brilliant.org/wiki/lambda-calculus/",
             "days": [1,2,3,4,5,6,7],
             "time": "20:00",
             "starts": "2020-08-24",
             "ends": "2020-08-25",
+            "channel": "https://twitch.tv/hackbacc"
+        },
+        {
+            "name": "Solving problems in Haskell",
+            "url": "#",
+            "description": "Read the learn you a haskell book and solve problems on hackerrank.",
+            "days": [1,2,3,4,5,6,7],
+            "time": "20:00",
+            "starts": "2020-08-27",
+            "ends": "2020-08-27",
             "channel": "https://twitch.tv/hackbacc"
         }
     ],
