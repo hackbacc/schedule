@@ -74,10 +74,20 @@
             "name": "Solving problems in Haskell",
             "url": "#",
             "description": "Solving problems on hackerrank - https://www.hackerrank.com/domains/fp",
-            "days": [2],
+            "days": [2, 3],
             "time": "20:00",
             "starts": "2020-09-01",
-            "ends": "2020-09-01",
+            "ends": "2020-09-03",
+            "channel": "https://twitch.tv/hackbacc"
+        },
+        {
+            "name": "Still solving problems in Haskell/common lisp",
+            "url": "#",
+            "description": "Solving problems on spoj - https://www.spoj.com/problems",
+            "days": [1,2,3,4,5,6,7],
+            "time": "20:00",
+            "starts": "2020-09-07",
+            "ends": "2020-09-07",
             "channel": "https://twitch.tv/hackbacc"
         }
     ],
