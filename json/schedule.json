@@ -106,8 +106,8 @@
             "description": "Solving problems on spoj - https://www.spoj.com/problems",
             "days": [1,2,3,4,5,6,7],
             "time": "21:00",
-            "starts": "2020-09-21",
-            "ends": "2020-09-21",
+            "starts": "2020-09-22",
+            "ends": "2020-09-22",
             "channel": "https://twitch.tv/hackbacc"
         }
     ],
