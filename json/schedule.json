@@ -116,8 +116,8 @@
             "description": "OPENVAS room on tryhackme https://tryhackme.com/room/openvas",
             "days": [1,2,3,4,5,6,7],
             "time": "15:00",
-            "starts": "2020-09-22",
-            "ends": "2020-09-22",
+            "starts": "2021-06-26",
+            "ends": "2021-06-26",
             "channel": "https://twitch.tv/hackbacc"
         }
     ],
