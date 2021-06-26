@@ -109,6 +109,16 @@
             "starts": "2020-09-22",
             "ends": "2020-09-22",
             "channel": "https://twitch.tv/hackbacc"
+        },
+        {
+            "name": "OPENVAS room on tryhackme https://tryhackme.com/room/openvas",
+            "url": "https://tryhackme.com/room/openvas",
+            "description": "OPENVAS room on tryhackme https://tryhackme.com/room/openvas",
+            "days": [1,2,3,4,5,6,7],
+            "time": "15:00",
+            "starts": "2020-09-22",
+            "ends": "2020-09-22",
+            "channel": "https://twitch.tv/hackbacc"
         }
     ],
     "extraEvents": [
